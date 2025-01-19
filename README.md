@@ -14,7 +14,7 @@ Input 2:
 ![Image](https://github.com/user-attachments/assets/a23d7502-d378-4d28-8a0a-6ba7480eaa9b)
 
 Output 2:
-
+![Image](https://github.com/user-attachments/assets/4d4b6a58-3530-4a1b-b744-f34bad541876)
 
 Input 3:
 ![Image](https://github.com/user-attachments/assets/4ab64ce0-838c-47c2-9367-5109c0c45446)
