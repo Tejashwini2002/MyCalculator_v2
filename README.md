@@ -1,5 +1,6 @@
 # MyCalculator_v2
 This is version 2 of My Calculator Project
+This is a fun Calculator, where, random jokes specified in the array will get displayed along with the ansewer. I have also handled the divide by zero error and Invalid Integer error and displayed the corresponding message. 
 
 Front Page:
 ![Image](https://github.com/user-attachments/assets/b09f6551-f262-45c4-9c6e-4b0a460ca44a)
