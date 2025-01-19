@@ -11,7 +11,7 @@ Output 1:
 ![Image](https://github.com/user-attachments/assets/c867b51c-503c-43bb-887d-d1d14b2c4df9)
 
 Input 2: 
-
+![Image](https://github.com/user-attachments/assets/a23d7502-d378-4d28-8a0a-6ba7480eaa9b)
 
 Output 2:
 
