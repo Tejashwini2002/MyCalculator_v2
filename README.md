@@ -1,13 +1,16 @@
 # MyCalculator_v2
 This is version 2 of My Calculator Project
 <br>
+<br>
 Introduction: 
 <br>
 This is a fun Calculator, where, random jokes specified in the array will get displayed along with the ansewer. I have also handled the divide by zero error and Invalid Integer error and displayed the corresponding message.
 <br>
+<br>
 Technologies Used:
 <br>
 Java JSP, Servlet, HTML,CSS
+<br>
 <br>
 INPUT AND OUTPUT IMAGES:
 <br>
