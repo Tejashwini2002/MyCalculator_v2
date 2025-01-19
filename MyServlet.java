@@ -47,16 +47,21 @@ public class MyServlet extends HttpServlet {
 				
 				int num1 = Integer.parseInt(str1);
 				int num2 = Integer.parseInt(str2);
-				int ans;
-				String error_message = "Can't divide by zero";
-				if (num2 == 0) {
+				int ans =-1;
+				
+				if (num2 == 0 && str3.equals("4")) {
+					String error_message = "Can't divide by zero";
 					response.sendRedirect("NewFile.jsp?ans="+error_message+"&joke="+randomJoke);
-					
 				}else {
-			    if(str3.equals("1")) ans= num1 + num2;
-				else if(str3.equals("2")) ans= num1 - num2;
-				else if(str3.equals("3")) ans= num1 * num2;
-				else ans=num1/num2;
+					if(str3.equals("1")) {
+						ans= num1 + num2;
+					}
+					else if(str3.equals("2")) { ans= num1 - num2;}
+					else if(str3.equals("3")) {ans= num1 * num2;}
+					else {
+						ans=num1/num2;
+					 }
+				
 				
 				//response.getWriter().append("Served at: ").append(request.getContextPath());
 				//response.getWriter().append("Ans = "+ans);
@@ -67,8 +72,8 @@ public class MyServlet extends HttpServlet {
 			     
 				response.sendRedirect("NewFile.jsp?ans="+ans+"&joke="+randomJoke); // I have written here NewFile.jsp. You should write whatever name you have given to the jsp file.
 				// In the above line, I am also sending the joke alon with jsp file and answer. You can send the jokes by fetching from the array as done here, or you can even integrate the API.
-				}
 				
+				}
 				}catch(NumberFormatException e) {
 				 String exception_message = "Input is not having valid integers";
 //				response.getWriter().append("Input is not having valid integers");
